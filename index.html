@@ -35,14 +35,16 @@
             <option value="12">12</option>
             </select>　月
           
-            <select name="day" class="day-select" id="birth_day">
+            <select name="day" class="day-select" id="birth_day" required>
               <option value=""></option>
             </select>　日
 
-          <!--
-            <p><input class="submit" type="submit" value="誕生日を表示します" onclick="location.href='./roomChoice.html'"></input>今は表示されない</p>
-          -->
+            <!--
+              <h2><span class="month-print">   </span></h2>月
+            <h2><span class="day-print">   </span></h2>日
+            -->
         </form>
+        <p><button type="submit" formaction="roomChoice.html" form="birthday" class="submit">誕生日を入力</button></p>
       
     </div>
 
